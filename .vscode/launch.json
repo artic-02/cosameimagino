@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Carlo/OneDrive/Desktop/GAAAA",
-      "program": "c:/Users/Carlo/OneDrive/Desktop/GAAAA/build/Debug/outDebug",
+      "cwd": "c:/Users/Carlo/OneDrive/Desktop/GAAAA/Clases",
+      "program": "c:/Users/Carlo/OneDrive/Desktop/GAAAA/Clases/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

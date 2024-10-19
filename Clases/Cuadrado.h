@@ -3,8 +3,8 @@
 2.Una vez creado el archivo .h, definirla con un #define, este define lo metemos dentro de un bloque "#ifndef -> #endif"
 Esto porque cuando estamos trabajando en un proyecto donde varias clases se llaman entre si, nos ayuda a no definir
 la misma clase 2 veces y evitar conflictos a la hora de ejecutar nuestro codigo*/
-#ifndef CUADRADO.H 
-#define CUADRADO.H
+#ifndef CUADRADO_H
+#define CUADRADO_H
 
 class Cuadrado{
     /*Una clase tiene 2 secciones
@@ -34,10 +34,9 @@ class Cuadrado{
             this->b=2;
         }
     
+        float area(){ //un metodo que calcula el area del cuadrado, el cual usa los valores de la instancia para el calculo
+            return this->a * this->b; 
+        }
+    
 };
-
-
-
-
-#endif
-
+#endif //CUADRADO_H
